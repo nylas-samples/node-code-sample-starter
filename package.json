@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A starter node repo for creating code samples",
   "main": "build/index.js",
+  "type": "module",
   "scripts": {
     "test": "jest",
     "lint": "eslint --ext .js,.ts -f visualstudio .",
@@ -12,7 +13,8 @@
     "lint:prettier:check": "prettier --check '**/*.{ts,js}'",
     "build": "tsc",
     "prepare": "npm run build",
-    "watch": "nodemon -w src --exec npm run build"
+    "watch": "tsc --watch",
+    "start": "node build/index.js"
   },
   "jest": {
     "preset": "ts-jest/presets/js-with-ts",

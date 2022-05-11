@@ -1,13 +1,6 @@
-# Update readme (remove this section after)
-- [ ] repo name, replace `repo-name`
-- [ ] repo description, replace `[add jobs to be done]`
-- [ ] add relevant environment variables
-- [ ] update successful terminal outputs, replace `[Add Successful console log]`
+# node-starter-repo
 
-
-# [repo-name]
-
-This sample will show you to easily [add jobs to be done] with the Nylas Node.js SDK.
+This sample repo will show you how to easily to get started with the Nylas Node.js SDK.
 
 ## Setup
 
@@ -23,14 +16,9 @@ You'll need the following values:
 ACCESS_TOKEN = ""
 CLIENT_ID = ""
 CLIENT_SECRET = ""
-RECIPIENT_ADDRESS = ""
 ```
 
-Add the above values to a new `.env` file:
-
-```bash
-$ touch .env # Then add your env variables
-```
+Add the above values to a `.env` file:
 
 ### Install dependencies
 
@@ -43,14 +31,27 @@ $ npm i
 Run the script using following commands:
 
 ```bash
-$ yarn build
+$ npm run build
 $ node build/index.js
 ```
 
-When your message is successfully sent, you'll get the following output in your terminal:
+When you run the script, you'll get account information output in your terminal:
 
-```text
-[Add Successful console log]
+```bash
+{
+    ...
+    id: '<ACCOUNT_ID>',
+    accountId: '<ACCOUNT_ID>',
+    object: 'account',
+    name: '<ACCOUNT_NAME>',
+    emailAddress: '<ACCOUNT_EMAIL>',
+    provider: '<EMAIL_PROVIDER>',
+    organizationUnit: 'label',
+    syncState: 'running',
+    linkedAt: 2022-04-21T14:48:14.000Z,
+    accessToken: ''
+  }
+}
 ```
 
 ## Learn more
