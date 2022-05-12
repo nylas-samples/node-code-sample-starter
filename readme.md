@@ -57,15 +57,3 @@ When you run the script, you'll get account information output in your terminal:
 ## Learn more
 
 Visit our [Nylas Node.js SDK documentation](https://developer.nylas.com/docs/developer-tools/sdk/node-sdk/) to learn more.
-
-## Code of Conduct
-
-View our [Code of Conduct](https://github.com/nylas-samples/.github/blob/main/CODE_OF_CONDUCT.md).
-
-## How to Contribute
-
-We love contributions! Learn [how to contribute](https://github.com/nylas-samples/.github/blob/main/CONTRIBUTING.md).
-
-## PR Template
-
-Checkout our [PR Template](https://github.com/nylas-samples/.github/tree/main) for further guidelines.
