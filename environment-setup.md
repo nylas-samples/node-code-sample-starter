@@ -58,3 +58,7 @@ CLIENT_SECRET = ""
 ```
 
 Add the above values to a `.env` file:
+
+We can get the `CLIENT_ID` and `CLIENT_SECRET` from the App Settings
+
+Never share the contents of the `.env` publicly or place the contents on a remote git repository like Github for others to access.
