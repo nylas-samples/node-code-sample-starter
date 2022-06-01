@@ -42,7 +42,7 @@ Now we have Nylas installed and are ready to build.
 
 ## Environment Variables
 
-Install dotenv to manage environment variables. Let’s install dotenv and create a .env file to store environment variables:
+Install `dotenv` to manage environment variables. Let’s install `dotenv` and create a .env file to store environment variables:
 
 ```text
 $ npm install dotenv
