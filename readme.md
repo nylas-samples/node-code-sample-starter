@@ -1,4 +1,4 @@
-# node-starter-repo
+# node-code-sample-starter
 
 This sample repo will show you how to easily to get started with the Nylas Node.js SDK.
 
