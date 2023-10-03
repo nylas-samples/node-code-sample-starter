@@ -1,14 +1,13 @@
 import 'dotenv/config';
 import Nylas from "nylas"
 
-Nylas.config({
-    clientId: process.env.CLIENT_ID,
-    clientSecret: process.env.CLIENT_SECRET,
-});
+const NylasConfig = {
+  apiKey: process.env.API_KEY as string,
+  serverUrl: process.env.SERVER_URL as string,
+};
 
-const nylas = Nylas.with(process.env.ACCESS_TOKEN);
+const nylas = new Nylas(NylasConfig);
 
-const currentAccount = await nylas.account.get();
+const applicationDetails = await nylas.applications.getDetails();
 
-// @ts-ignore
-console.log({ currentAccount })
+console.log({ applicationDetails })
